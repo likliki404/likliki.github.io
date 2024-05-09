@@ -1,0 +1,80 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+#logo {
+    margin: 0px 34px;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    margin-bottom: 8px;
+}
+
+/* Home section */
+#home{
+    height: 280px;
+    padding: 3px 28px;
+}
+#home::before{
+    height: 355px;
+}
+#home p{
+    font-size: 13px;
+}
+
+/* Services section */
+#services{
+    flex-direction: column;
+}
+#services .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+#services .box img{
+    height: auto;
+    width: 130px;
+    display: block;
+    margin: auto;
+}
+
+/* Clients section */
+#clients{
+    /* one line for quick fix */
+    /* If the content overflows (not fitting within the width of the page) then 
+    the extra content will not show, it will hide the horizontal scrollbar */
+    /* overflow: hidden; */
+
+    flex-wrap: wrap;
+}
+/* code block by me */
+.client-item {
+    padding: 8px;
+}
+
+#clients img{
+    height: 54px;
+    /* padding: 2px 11px; */
+}
+
+
+/* Contact us section */
+#contact-box form{
+    width: 80%;
+}
+
+/* Footer */
+
+
+/* Utility classes */
+.h-primary{
+    font-size: 26px;
+}
+.h-secondary {
+    font-size: 23px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
